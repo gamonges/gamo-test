@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0CA37B420145D93000816E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA37B320145D93000816E8 /* AppDelegate.swift */; };
+		A0CA37B620145D93000816E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA37B520145D93000816E8 /* ViewController.swift */; };
+		A0CA37B920145D93000816E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CA37B720145D93000816E8 /* Main.storyboard */; };
+		A0CA37BC20145D93000816E8 /* gamo_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0CA37BA20145D93000816E8 /* gamo_test.xcdatamodeld */; };
+		A0CA37BE20145D93000816E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CA37BD20145D93000816E8 /* Assets.xcassets */; };
+		A0CA37C120145D93000816E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CA37BF20145D93000816E8 /* LaunchScreen.storyboard */; };
+		A0CA37CC20145D93000816E8 /* gamo_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA37CB20145D93000816E8 /* gamo_testTests.swift */; };
+		A0CA37D720145D93000816E8 /* gamo_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA37D620145D93000816E8 /* gamo_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0CA37C820145D93000816E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CA37A820145D93000816E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CA37AF20145D93000816E8;
+			remoteInfo = "gamo-test";
+		};
+		A0CA37D320145D93000816E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0CA37A820145D93000816E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CA37AF20145D93000816E8;
+			remoteInfo = "gamo-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0CA37B020145D93000816E8 /* gamo-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gamo-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CA37B320145D93000816E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0CA37B520145D93000816E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0CA37B820145D93000816E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0CA37BB20145D93000816E8 /* gamo_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gamo_test.xcdatamodel; sourceTree = "<group>"; };
+		A0CA37BD20145D93000816E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0CA37C020145D93000816E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0CA37C220145D93000816E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CA37C720145D93000816E8 /* gamo-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gamo-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CA37CB20145D93000816E8 /* gamo_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamo_testTests.swift; sourceTree = "<group>"; };
+		A0CA37CD20145D93000816E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CA37D220145D93000816E8 /* gamo-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gamo-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CA37D620145D93000816E8 /* gamo_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamo_testUITests.swift; sourceTree = "<group>"; };
+		A0CA37D820145D93000816E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0CA37AD20145D93000816E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CA37C420145D93000816E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CA37CF20145D93000816E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0CA37A720145D93000816E8 = {
+			isa = PBXGroup;
+			children = (
+				A0CA37B220145D93000816E8 /* gamo-test */,
+				A0CA37CA20145D93000816E8 /* gamo-testTests */,
+				A0CA37D520145D93000816E8 /* gamo-testUITests */,
+				A0CA37B120145D93000816E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0CA37B120145D93000816E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA37B020145D93000816E8 /* gamo-test.app */,
+				A0CA37C720145D93000816E8 /* gamo-testTests.xctest */,
+				A0CA37D220145D93000816E8 /* gamo-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0CA37B220145D93000816E8 /* gamo-test */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA37B320145D93000816E8 /* AppDelegate.swift */,
+				A0CA37B520145D93000816E8 /* ViewController.swift */,
+				A0CA37B720145D93000816E8 /* Main.storyboard */,
+				A0CA37BD20145D93000816E8 /* Assets.xcassets */,
+				A0CA37BF20145D93000816E8 /* LaunchScreen.storyboard */,
+				A0CA37C220145D93000816E8 /* Info.plist */,
+				A0CA37BA20145D93000816E8 /* gamo_test.xcdatamodeld */,
+			);
+			path = "gamo-test";
+			sourceTree = "<group>";
+		};
+		A0CA37CA20145D93000816E8 /* gamo-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA37CB20145D93000816E8 /* gamo_testTests.swift */,
+				A0CA37CD20145D93000816E8 /* Info.plist */,
+			);
+			path = "gamo-testTests";
+			sourceTree = "<group>";
+		};
+		A0CA37D520145D93000816E8 /* gamo-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA37D620145D93000816E8 /* gamo_testUITests.swift */,
+				A0CA37D820145D93000816E8 /* Info.plist */,
+			);
+			path = "gamo-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0CA37AF20145D93000816E8 /* gamo-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CA37DB20145D93000816E8 /* Build configuration list for PBXNativeTarget "gamo-test" */;
+			buildPhases = (
+				A0CA37AC20145D93000816E8 /* Sources */,
+				A0CA37AD20145D93000816E8 /* Frameworks */,
+				A0CA37AE20145D93000816E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gamo-test";
+			productName = "gamo-test";
+			productReference = A0CA37B020145D93000816E8 /* gamo-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0CA37C620145D93000816E8 /* gamo-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CA37DE20145D93000816E8 /* Build configuration list for PBXNativeTarget "gamo-testTests" */;
+			buildPhases = (
+				A0CA37C320145D93000816E8 /* Sources */,
+				A0CA37C420145D93000816E8 /* Frameworks */,
+				A0CA37C520145D93000816E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CA37C920145D93000816E8 /* PBXTargetDependency */,
+			);
+			name = "gamo-testTests";
+			productName = "gamo-testTests";
+			productReference = A0CA37C720145D93000816E8 /* gamo-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0CA37D120145D93000816E8 /* gamo-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CA37E120145D93000816E8 /* Build configuration list for PBXNativeTarget "gamo-testUITests" */;
+			buildPhases = (
+				A0CA37CE20145D93000816E8 /* Sources */,
+				A0CA37CF20145D93000816E8 /* Frameworks */,
+				A0CA37D020145D93000816E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CA37D420145D93000816E8 /* PBXTargetDependency */,
+			);
+			name = "gamo-testUITests";
+			productName = "gamo-testUITests";
+			productReference = A0CA37D220145D93000816E8 /* gamo-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0CA37A820145D93000816E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "蒲生廣人";
+				TargetAttributes = {
+					A0CA37AF20145D93000816E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A0CA37C620145D93000816E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0CA37AF20145D93000816E8;
+					};
+					A0CA37D120145D93000816E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0CA37AF20145D93000816E8;
+					};
+				};
+			};
+			buildConfigurationList = A0CA37AB20145D93000816E8 /* Build configuration list for PBXProject "gamo-test" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0CA37A720145D93000816E8;
+			productRefGroup = A0CA37B120145D93000816E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0CA37AF20145D93000816E8 /* gamo-test */,
+				A0CA37C620145D93000816E8 /* gamo-testTests */,
+				A0CA37D120145D93000816E8 /* gamo-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0CA37AE20145D93000816E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CA37C120145D93000816E8 /* LaunchScreen.storyboard in Resources */,
+				A0CA37BE20145D93000816E8 /* Assets.xcassets in Resources */,
+				A0CA37B920145D93000816E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CA37C520145D93000816E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CA37D020145D93000816E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0CA37AC20145D93000816E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CA37BC20145D93000816E8 /* gamo_test.xcdatamodeld in Sources */,
+				A0CA37B620145D93000816E8 /* ViewController.swift in Sources */,
+				A0CA37B420145D93000816E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CA37C320145D93000816E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CA37CC20145D93000816E8 /* gamo_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CA37CE20145D93000816E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CA37D720145D93000816E8 /* gamo_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0CA37C920145D93000816E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CA37AF20145D93000816E8 /* gamo-test */;
+			targetProxy = A0CA37C820145D93000816E8 /* PBXContainerItemProxy */;
+		};
+		A0CA37D420145D93000816E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CA37AF20145D93000816E8 /* gamo-test */;
+			targetProxy = A0CA37D320145D93000816E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0CA37B720145D93000816E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CA37B820145D93000816E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0CA37BF20145D93000816E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CA37C020145D93000816E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0CA37D920145D93000816E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0CA37DA20145D93000816E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0CA37DC20145D93000816E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gamo-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.gamo-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0CA37DD20145D93000816E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gamo-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.gamo-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0CA37DF20145D93000816E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gamo-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.gamo-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gamo-test.app/gamo-test";
+			};
+			name = Debug;
+		};
+		A0CA37E020145D93000816E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gamo-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.gamo-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gamo-test.app/gamo-test";
+			};
+			name = Release;
+		};
+		A0CA37E220145D93000816E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gamo-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.gamo-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gamo-test";
+			};
+			name = Debug;
+		};
+		A0CA37E320145D93000816E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "gamo-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.gamo-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gamo-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0CA37AB20145D93000816E8 /* Build configuration list for PBXProject "gamo-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CA37D920145D93000816E8 /* Debug */,
+				A0CA37DA20145D93000816E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CA37DB20145D93000816E8 /* Build configuration list for PBXNativeTarget "gamo-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CA37DC20145D93000816E8 /* Debug */,
+				A0CA37DD20145D93000816E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CA37DE20145D93000816E8 /* Build configuration list for PBXNativeTarget "gamo-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CA37DF20145D93000816E8 /* Debug */,
+				A0CA37E020145D93000816E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CA37E120145D93000816E8 /* Build configuration list for PBXNativeTarget "gamo-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CA37E220145D93000816E8 /* Debug */,
+				A0CA37E320145D93000816E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0CA37BA20145D93000816E8 /* gamo_test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0CA37BB20145D93000816E8 /* gamo_test.xcdatamodel */,
+			);
+			currentVersion = A0CA37BB20145D93000816E8 /* gamo_test.xcdatamodel */;
+			path = gamo_test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0CA37A820145D93000816E8 /* Project object */;
+}
